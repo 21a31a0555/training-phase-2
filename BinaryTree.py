@@ -19,7 +19,7 @@ def collectLeafNodes(root, result):
         return 
     elif isLeafNode(root):
         result.append(root.data)
-        return  
+        return 
     collectLeafNodes(root.left, result)
     collectLeafNodes(root.right, result)
     
