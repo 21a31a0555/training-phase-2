@@ -40,7 +40,6 @@ class linkedlist:
 
 
 
-
 obj1=linkedlist()
 o1=node(30)
 o2=node(40)
