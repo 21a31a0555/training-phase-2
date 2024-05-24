@@ -153,6 +153,42 @@ def findBottomView(root):
         result.append(store[key][1])
     return result
     
-    
+    o1=node(30)
+o2=node(40)
+o3=node(50)
+o4=node(60)
+o5=node(70)
+o6=node(80)
+o7=node(90)
+o8=node(100)
+o9=node(110)
+o10=node(-50)
+o1.lref=o2
+o1.rref=o3
+o2.lref=o4
+o2.rref=o5
+o3.lref=o6
+o3.rref=o7
+o4.lref=o8
+o4.rref=o9
+o5.lref=o10
+root=o1
+inordertraversal(root)
+print()
+preordertraversal(root)
+print()
+postordertraversal(root)
+print()
+levelordertraversal(root)
+print()
+zigzagLevelOrder(root)
+print()
+findleftview(root)
+print()
+findrightview(root)
+print()
+findTopView(root)
+print()
+findBottomView(root)
     
     
